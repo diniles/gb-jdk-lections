@@ -3,8 +3,8 @@ package ru.gb.jdk.lection1;
 import javax.swing.*;
 
 public class SettingsWindow extends JFrame {
-    public static final int WINDOW_WIDTH = 350;
-    public static final int WINDOW_HEIGHT = 230;
+    private static final int WINDOW_WIDTH = 350;
+    private static final int WINDOW_HEIGHT = 230;
 
     JButton btnStart = new JButton("Start new game");
 

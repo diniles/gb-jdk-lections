@@ -1,6 +1,7 @@
 package ru.gb.jdk.lection1;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class GameWindow extends JFrame {
     public static final int WINDOW_WIDTH = 507;
@@ -17,9 +18,11 @@ public class GameWindow extends JFrame {
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
         setTitle("TicTacToe");
         setResizable(false);
-        add(btnStart);
-        add(btnExit);
 
+        JPanel panBottom = new JPanel(new GridLayout(1, 2));
+        panBottom.add(btnStart);
+        panBottom.add(btnExit);
+        add(panBottom, BorderLayout.SOUTH);
         setVisible(true);
     }
 }

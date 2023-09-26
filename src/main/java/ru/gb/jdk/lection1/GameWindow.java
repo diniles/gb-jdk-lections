@@ -12,6 +12,9 @@ public class GameWindow extends JFrame {
     JButton btnStart = new JButton("New Game");
     JButton btnExit = new JButton("Exit");
 
+    Map map;
+    SettingsWindow settings;
+
     GameWindow() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocation(WINDOW_POSX, WINDOW_POSY);
@@ -19,7 +22,9 @@ public class GameWindow extends JFrame {
         setTitle("TicTacToe");
         setResizable(false);
 
-        Map map = new Map();
+        map = new Map();
+        settings = new SettingsWindow(this);
+        settings.setVisible(true);
 
         JPanel panBottom = new JPanel(new GridLayout(1, 2));
         panBottom.add(btnStart);

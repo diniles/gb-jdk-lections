@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="" />
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class GameWindow">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,11 +38,38 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lection1.Main" />
+      <module name="jdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.jdk.lection1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,11 +78,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695719053627</updated>
-      <workItem from="1695719054624" duration="1000" />
+      <workItem from="1695719054624" duration="302000" />
     </task>
+    <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
+      <option name="closed" value="true" />
+      <created>1695719103055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695719103055</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init: ru.gb.jdk lections">
+      <option name="closed" value="true" />
+      <created>1695719113755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695719113755</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat: class GameWindow">
+      <option name="closed" value="true" />
+      <created>1695719324366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695719324366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init: ru.gb.jdk lections" />
+    <MESSAGE value="Feat: class GameWindow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: class GameWindow" />
   </component>
 </project>

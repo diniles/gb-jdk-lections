@@ -2,6 +2,8 @@ package ru.gb.jdk.lection1;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GameWindow extends JFrame {
     private static final int WINDOW_WIDTH = 507;
@@ -24,7 +26,20 @@ public class GameWindow extends JFrame {
 
         map = new Map();
         settings = new SettingsWindow(this);
-        settings.setVisible(true);
+
+        btnExit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+
+        btnStart.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                settings.setVisible(true);
+            }
+        });
 
         JPanel panBottom = new JPanel(new GridLayout(1, 2));
         panBottom.add(btnStart);

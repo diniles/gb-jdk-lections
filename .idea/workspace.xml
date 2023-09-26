@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class Map paintComponent">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class Map mouseListener">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695719053627</updated>
-      <workItem from="1695719054624" duration="4008000" />
+      <workItem from="1695719054624" duration="4273000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -208,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695723168465</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feat: class Map paint game field">
+      <option name="closed" value="true" />
+      <created>1695723566145</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695723566145</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feat: class Map mouseListener">
+      <option name="closed" value="true" />
+      <created>1695723734978</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695723734978</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +242,8 @@
     <MESSAGE value="Feat: class GameWindow button listeners" />
     <MESSAGE value="Feat: button listeners" />
     <MESSAGE value="Feat: class Map paintComponent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: class Map paintComponent" />
+    <MESSAGE value="Feat: class Map paint game field" />
+    <MESSAGE value="Feat: class Map mouseListener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: class Map mouseListener" />
   </component>
 </project>

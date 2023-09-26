@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class Map">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/SettingsWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/GameWindow.java" afterDir="false" />
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class SettingsWindow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/SettingsWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/SettingsWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -79,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695719053627</updated>
-      <workItem from="1695719054624" duration="2011000" />
+      <workItem from="1695719054624" duration="2323000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -161,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695721409496</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Feat: class SettingsWindow">
+      <option name="closed" value="true" />
+      <created>1695721699008</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721699008</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +182,7 @@
     <MESSAGE value="Feat: class GameWindow buttons" />
     <MESSAGE value="Feat: class GameWindow panel" />
     <MESSAGE value="Feat: class Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: class Map" />
+    <MESSAGE value="Feat: class SettingsWindow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: class SettingsWindow" />
   </component>
 </project>

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class GameWindow main window">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/GameWindow.java" afterDir="false" />
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class Map">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695719053627</updated>
-      <workItem from="1695719054624" duration="1373000" />
+      <workItem from="1695719054624" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -128,7 +129,31 @@
       <option name="project" value="LOCAL" />
       <updated>1695720843419</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feat: class GameWindow buttons">
+      <option name="closed" value="true" />
+      <created>1695720962252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695720962252</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feat: class GameWindow panel">
+      <option name="closed" value="true" />
+      <created>1695721085124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721085124</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat: class Map">
+      <option name="closed" value="true" />
+      <created>1695721187501</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721187501</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +164,9 @@
     <MESSAGE value="Feat: class GameWindow" />
     <MESSAGE value="Feat: class Main" />
     <MESSAGE value="Feat: class GameWindow main window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: class GameWindow main window" />
+    <MESSAGE value="Feat: class GameWindow buttons" />
+    <MESSAGE value="Feat: class GameWindow panel" />
+    <MESSAGE value="Feat: class Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: class Map" />
   </component>
 </project>

@@ -11,8 +11,8 @@ public class Main {
         catInBox.setValue(new Cat("Vasya"));
         printInfo(catInBox);
 
-        TBox<Cat> dogInBox = TBox.emptyBox();
-        dogInBox.setValue(new Cat("Kusya"));
+        TBox<Dog> dogInBox = TBox.emptyBox();
+        dogInBox.setValue(new Dog("Kusya"));
         printInfo(dogInBox);
 
 //        GBox<String> stringBox = new GBox<>("Hello!");

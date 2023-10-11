@@ -32,6 +32,7 @@ public class Main {
         ArrayList<Animal> animals = new ArrayList<>(Arrays.asList(new Animal()));
         copyTo(animals, cats);
         System.out.println(cats);
+        cats.get(1).voice();
     }
 
     public static void copyTo(ArrayList src, ArrayList dst) {

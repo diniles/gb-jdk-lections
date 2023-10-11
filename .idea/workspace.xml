@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: lection 3 class Main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/GBox.java" afterDir="false" />
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: lection 3 class GBox">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1697026766915" duration="68000" />
       <workItem from="1697026847930" duration="168000" />
       <workItem from="1697027020257" duration="12000" />
-      <workItem from="1697027499744" duration="363000" />
+      <workItem from="1697027499744" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697027667880</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Feat: lection 3 class GBox">
+      <option name="closed" value="true" />
+      <created>1697027875067</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1697027875067</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +320,7 @@
     <MESSAGE value="Feat: class lection 1" />
     <MESSAGE value="Feat: class lection 3 class Box" />
     <MESSAGE value="Feat: lection 3 class Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: lection 3 class Main" />
+    <MESSAGE value="Feat: lection 3 class GBox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: lection 3 class GBox" />
   </component>
 </project>

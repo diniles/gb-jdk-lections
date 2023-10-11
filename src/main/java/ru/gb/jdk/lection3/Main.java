@@ -7,6 +7,14 @@ import java.util.Objects;
 public class Main {
 
     public static void main(String[] args) {
+        TBox<Cat> catInBox = TBox.emptyBox();
+        catInBox.setValue(new Cat("Vasya"));
+        printInfo(catInBox);
+
+        TBox<Cat> dogInBox = TBox.emptyBox();
+        dogInBox.setValue(new Cat("Kusya"));
+        printInfo(dogInBox);
+
 //        GBox<String> stringBox = new GBox<>("Hello!");
 //        stringBox.showType();
 //        GBox<Integer> integerBox = new GBox<>(12);
@@ -28,18 +36,22 @@ public class Main {
 //        BBox.setIfNull(integerBBox, 4);
 //        BBox.setIfNull(stringBBox, "hello");
 
-        ArrayList<Cat> cats = new ArrayList<>(Arrays.asList(new Cat()));
-        ArrayList<Animal> animals = new ArrayList<>(Arrays.asList(new Animal()));
+//        ArrayList<Cat> cats = new ArrayList<>(Arrays.asList(new Cat()));
+//        ArrayList<Animal> animals = new ArrayList<>(Arrays.asList(new Animal()));
 //        copyTo(animals, cats);
-        copyTo(cats, animals);
-        System.out.println(cats);
+//        copyTo(cats, animals);
+//        System.out.println(cats);
 //        cats.get(1).voice();
     }
 
-    public static <T> void copyTo(ArrayList<? extends T> src, ArrayList<? super T> dst) {
-        for (T o : src) {
-            dst.add(o);
-        }
+    static void printInfo(TBox<? extends Animal> animalInBox) {
+        System.out.println("Information about animal: " + animalInBox);
     }
+
+//    public static <T> void copyTo(ArrayList<? extends T> src, ArrayList<? super T> dst) {
+//        for (T o : src) {
+//            dst.add(o);
+//        }
+//    }
 }
 

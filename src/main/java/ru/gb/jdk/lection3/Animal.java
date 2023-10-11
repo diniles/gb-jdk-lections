@@ -9,6 +9,6 @@ public class Animal {
 
     @Override
     public String toString() {
-        return name;
+        return this.getClass().getSimpleName() + " with name " + name;
     }
 }

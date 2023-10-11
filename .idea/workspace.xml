@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class Map mouseListener">
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class lection 3 class Box">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,22 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/dl/IdeaProjects/jdk-lections",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dl/IdeaProjects/jdk-lections&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dl\IdeaProjects\jdk\src\main\resources" />
@@ -58,7 +60,7 @@
       <recent name="C:\Users\dl\IdeaProjects\jdk\src\main\java\ru\gb\jdk\lection1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ru.gb.jdk.lection3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lection1.Main" />
       <module name="jdk" />
@@ -72,8 +74,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.jdk.lection3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../java/jdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lection3.Main" />
+      <module name="jdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.jdk.lection3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.jdk.lection3.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -90,6 +108,11 @@
       <workItem from="1695725864851" duration="1159000" />
       <workItem from="1695835618176" duration="72000" />
       <workItem from="1695835751421" duration="29000" />
+      <workItem from="1697025811186" duration="910000" />
+      <workItem from="1697026766915" duration="68000" />
+      <workItem from="1697026847930" duration="168000" />
+      <workItem from="1697027020257" duration="12000" />
+      <workItem from="1697027499744" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -243,7 +266,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695723836752</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Feat: class lection 1">
+      <option name="closed" value="true" />
+      <created>1697025878048</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697025878048</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Feat: class lection 3 class Box">
+      <option name="closed" value="true" />
+      <created>1697026110688</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1697026110688</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +303,8 @@
     <MESSAGE value="Feat: class Map paintComponent" />
     <MESSAGE value="Feat: class Map paint game field" />
     <MESSAGE value="Feat: class Map mouseListener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: class Map mouseListener" />
+    <MESSAGE value="Feat: class lection 1" />
+    <MESSAGE value="Feat: class lection 3 class Box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: class lection 3 class Box" />
   </component>
 </project>

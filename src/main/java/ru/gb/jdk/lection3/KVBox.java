@@ -1,8 +1,8 @@
 package ru.gb.jdk.lection3;
 
 public class KVBox<K, V> {
-    private K key;
-    private V value;
+    private final K key;
+    private final V value;
 
     public KVBox(K key, V value) {
         this.key = key;

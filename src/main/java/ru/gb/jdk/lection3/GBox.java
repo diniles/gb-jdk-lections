@@ -18,4 +18,10 @@ public class GBox<T> {
     public void showType() {
         System.out.printf("Type is %s, which value is %s\n", value.getClass().getName(), getValue());
     }
+
+    public <T> void setIfNull(GBox<T> box, T t) {
+        if (box.getValue() == null) {
+            box.setValue(t);
+        }
+    }
 }

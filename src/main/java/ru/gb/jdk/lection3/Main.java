@@ -30,13 +30,14 @@ public class Main {
 
         ArrayList<Cat> cats = new ArrayList<>(Arrays.asList(new Cat()));
         ArrayList<Animal> animals = new ArrayList<>(Arrays.asList(new Animal()));
-        copyTo(animals, cats);
+//        copyTo(animals, cats);
+        copyTo(cats, animals);
         System.out.println(cats);
-        cats.get(1).voice();
+//        cats.get(1).voice();
     }
 
-    public static void copyTo(ArrayList src, ArrayList dst) {
-        for (Object o : src) {
+    public static <T> void copyTo(ArrayList<? extends T> src, ArrayList<? super T> dst) {
+        for (T o : src) {
             dst.add(o);
         }
     }

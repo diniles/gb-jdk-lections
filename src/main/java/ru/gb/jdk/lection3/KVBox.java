@@ -18,7 +18,7 @@ public class KVBox<K, V> {
     }
 
     public void showType() {
-        System.out.printf("Type of key is %s, k = %s, type of value os %s, value = %s\n",
+        System.out.printf("Type of key is %s, k = %s, type of value is %s, value = %s\n",
                 key.getClass().getName(), getKey(),
                 value.getClass().getName(), getValue());
     }

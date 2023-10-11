@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: lection 3 class Animal">
+    <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: lection 3 class Dog">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/TBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,7 @@
       <workItem from="1697026847930" duration="168000" />
       <workItem from="1697027020257" duration="12000" />
       <workItem from="1697027499744" duration="529000" />
-      <workItem from="1697028034750" duration="4129000" />
+      <workItem from="1697028034750" duration="4451000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -396,7 +395,31 @@
       <option name="project" value="LOCAL" />
       <updated>1697032310020</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Feat: lection 3 class Animal">
+      <option name="closed" value="true" />
+      <created>1697032424235</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697032424235</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Feat: lection 3 class Cat">
+      <option name="closed" value="true" />
+      <created>1697032432469</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1697032432469</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Feat: lection 3 class Dog">
+      <option name="closed" value="true" />
+      <created>1697032470636</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1697032470636</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,11 +446,12 @@
     <MESSAGE value="Feat: lection 3 class KVBox" />
     <MESSAGE value="Feat: lection 3 class GBox parametrized method" />
     <MESSAGE value="Feat: lection 3 class BBox" />
-    <MESSAGE value="Feat: lection 3 class Cat" />
     <MESSAGE value="Feat: lection 3 class Main" />
     <MESSAGE value="Feat: lection 3 class Main copyTo" />
     <MESSAGE value="Feat: lection 3 class Animal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: lection 3 class Animal" />
+    <MESSAGE value="Feat: lection 3 class Cat" />
+    <MESSAGE value="Feat: lection 3 class Dog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: lection 3 class Dog" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

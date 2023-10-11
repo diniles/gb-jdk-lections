@@ -13,12 +13,16 @@ public class Main {
 //        kvb0.showType();
 //        kvb1.showType();
 
-        GBox<Integer> box = new GBox<>(null);
-        box.setIfNull(box, 13);
-        System.out.println(box.getValue());
-        GBox<Integer> box0 = new GBox<>(1);
-        box0.setIfNull(box, 13);
-        System.out.println(box0.getValue());
+//        GBox<Integer> box = new GBox<>(null);
+//        box.setIfNull(box, 13);
+//        System.out.println(box.getValue());
+//        GBox<Integer> box0 = new GBox<>(1);
+//        box0.setIfNull(box, 13);
+//        System.out.println(box0.getValue());
+        BBox<Integer> integerBBox = new BBox<>();
+//        BBox<String> stringBBox = new BBox<>();
+        BBox.setIfNull(integerBBox, 4);
+//        BBox.setIfNull(stringBBox, "hello");
     }
 }
 

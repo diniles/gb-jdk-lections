@@ -1,11 +1,8 @@
 package ru.gb.jdk.lection3;
 
 public class Cat extends Animal {
-    public Cat() {
-        this.name = "Cat";
+    protected Cat(String name) {
+        super(name);
     }
 
-    public void voice() {
-        System.out.println("meow");
-    }
 }

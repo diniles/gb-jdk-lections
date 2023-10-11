@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b3d9be5-b6aa-42ae-9302-4a4cdfe12d17" name="Changes" comment="Feat: class Map mouseListener">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/jdk/lection1/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2VvaYHVjPGgRAS2XTWxw6Sv0L8z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/dl/IdeaProjects/jdk-lections",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +50,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dl\IdeaProjects\jdk\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dl\IdeaProjects\jdk\src\main\java\ru\gb\jdk\lection1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.jdk.lection1.Main" />
@@ -77,7 +86,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695719053627</updated>
-      <workItem from="1695719054624" duration="4273000" />
+      <workItem from="1695719054624" duration="4717000" />
+      <workItem from="1695725864851" duration="1159000" />
+      <workItem from="1695835618176" duration="72000" />
+      <workItem from="1695835751421" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Init: ru.gb.jdk lections">
       <option name="closed" value="true" />
@@ -223,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695723734978</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Feat: class Map mouseListener">
+      <option name="closed" value="true" />
+      <created>1695723836752</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695723836752</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
